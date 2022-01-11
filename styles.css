@@ -1,0 +1,162 @@
+#map{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 100px;
+    border-color: #333333;
+    border-width: 3px;
+    border-style:groove;
+}
+
+#barra_navegacion{
+    justify-items: center;
+    text-align: center;
+}
+
+.titulo{
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 55px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+
+#menu_principal{
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+} 
+
+.botones{
+    border-width: 0px;
+    
+}
+
+.botones:hover{
+    background-color: burlywood;
+    border-radius: 2%;
+    transition: 0.5s;
+    font-size: 22px;
+}
+
+#myCarousel{
+    width: 100%;
+    align-items: center;
+    justify-content: center
+}
+
+.card{
+    padding: 3px;
+    text-align: center;
+}
+
+img
+{
+   width: 60%;
+   margin: auto;
+}
+
+a{
+    color: #333333;
+
+}
+
+a:hover{
+    color: #333333;
+    text-decoration: none;
+
+}
+
+.productos{
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    border-color: #b4b4b4;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 1%;
+    margin: 5px;
+}
+
+.info{
+   display: none;
+   padding:10px;
+}
+
+.carrito:hover{
+background-color: antiquewhite;
+}
+
+
+input {
+    width: 50%;
+    padding: 1px;
+    margin-top: 8px;
+    font-size: 20px;
+    border: none;
+    background-color:papayawhip;
+    border-radius: 5%;
+}
+
+
+#alertaCarrito{
+display: none; 
+}
+
+#myDropdown{
+float: right;
+}
+
+#alertaCarritoProductoEliminado{
+display: none; 
+}
+
+#cerrar:hover{
+    color: #333333;
+}
+
+.lista {
+    list-style: none;
+}
+
+#formulario{
+    display: none;
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 72%;
+    background-color: burlywood;
+    width: 50rem;
+    height: 70%;
+    border-radius: 1%;
+}
+
+#catalogo{
+    width: 70rem;
+}
+
+.opcionProducto{
+    border-radius: 50%;
+    padding: 20px;
+    margin: 5px;
+    width: fit-content;
+    border-width: 0px;
+}
+
+.opcionProducto:hover{
+  background-color: #333333;
+  color: aliceblue;
+}
+
+.contador{
+display: none;
+width: fit-content;
+justify-content: center;
+background-color: white;
+}
